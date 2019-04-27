@@ -9,4 +9,7 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="already_registered">Already Registered?</string>
     <string name="hello_world">Hello from CarFleet!</string>
+    <string name="email">Email</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="not_registered_yet">Not Registered Yet?</string>
 </resources>
