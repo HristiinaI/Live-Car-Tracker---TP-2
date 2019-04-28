@@ -1,5 +1,6 @@
 package com.example.carfleet;
 
+import android.content.Intent;
 import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
@@ -9,11 +10,13 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Objects;
 
-public class   HomeActivity extends AppCompatActivity {
+public class  HomeActivity extends AppCompatActivity {
 
     private DrawerLayout dl;
     private ActionBarDrawerToggle abdt;
@@ -42,7 +45,9 @@ public class   HomeActivity extends AppCompatActivity {
                     Toast.makeText(HomeActivity.this, "MyProfile", Toast.LENGTH_SHORT).show();
                 }
                 if(id == R.id.create_group) {
-                    Toast.makeText(HomeActivity.this, "CreateGroup", Toast.LENGTH_SHORT).show();
+                    Intent create_group = new Intent(HomeActivity.this, CreateGroupActivity.class);
+                    startActivity(create_group);
+                    //Toast.makeText(HomeActivity.this, "CreateGroup", Toast.LENGTH_SHORT).show();
                 }
                 return true;
             }
