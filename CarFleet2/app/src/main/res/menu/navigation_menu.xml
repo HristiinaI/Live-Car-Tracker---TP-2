@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id = "@+id/my_profile"
+        android:title = "@string/my_profile"
+        android:icon = "@drawable/ic_person_black_24dp">
+    </item>
+    <item
+        android:id = "@+id/create_group"
+        android:title = "@string/create_group"
+        android:icon = "@drawable/ic_group_add_black_24dp">
+    </item>
+</menu>
