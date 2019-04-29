@@ -18,4 +18,5 @@
     <string name="Open">NavBar</string>
     <string name="Close">NavBar</string>
     <string name="swipe_left_to_see_nav_bar">Swipe Left To See Nav Bar</string>
+    <string name="title_activity_car">CarActivity</string>
 </resources>
